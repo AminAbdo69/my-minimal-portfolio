@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -38,6 +37,7 @@ export const BentoGridItem = ({
   id,
   title,
   description,
+  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -68,6 +68,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     const text = "aa6338383@gmail.com";
+
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

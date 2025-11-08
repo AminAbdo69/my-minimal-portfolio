@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Amin, a Next.js Developer based in Cairo.
+            Hi! I&apos;m Amin, a React Developer based in Cairo.
           </p>
 
           <a href="#projects">
